@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Registro de Usuario</h1>
+    <form action="/register" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" name="ciudad" id="ciudad" required><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" name="telefono" id="telefono" required><br>
+
+        <button type="submit">Registrarse</button>
+    </form>
+</body>
+</html>
